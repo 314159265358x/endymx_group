@@ -1,0 +1,13 @@
+name: Group
+main: cn.mcsugar.pe.group.Main
+version: "1.0.0"
+api: ["1.0.0"]
+load: POSTWORLD
+author: endymx
+loadbefore:
+- MoneySLand
+
+commands:
+ group:
+  description: "团队插件主要指令"
+  usage: "/group <tp|gm|reload> ...."
